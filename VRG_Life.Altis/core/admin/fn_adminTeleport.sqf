@@ -24,4 +24,4 @@ tele={
 };
 openMap [true, false];
 onMapSingleClick "[_pos select 0, _pos select 1, _pos select 2] call tele";
-[[0,format["Admin %1 has teleported to a location on the map.",profileName]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+[[0,format["Admin %1 has teleported to a location on the map.",profileName]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;//

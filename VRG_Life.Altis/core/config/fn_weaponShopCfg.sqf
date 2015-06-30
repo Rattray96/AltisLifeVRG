@@ -165,6 +165,7 @@ switch(_shop) do
 						["5Rnd_127x108_Mag",nil,500],
 						["5Rnd_127x108_APDS_Mag",nil,500],
 						["7Rnd_408_Mag",nil,500],
+						["optic_Nightstalker",nil,50000],
 						["200Rnd_65x39_cased_Box_Tracer",nil,500],
 						["V_PlateCarrierSpec_blk",nil,15000],
 						["SatchelCharge_Remote_Mag",nil,500]
@@ -222,6 +223,7 @@ switch(_shop) do
 						["arifle_TRG20_F",nil,25000],
 						["30Rnd_556x45_Stanag",nil,300],
 						["arifle_Katiba_F",nil,30000],
+						["optic_Nightstalker,nil,100000],
 						["30Rnd_65x39_caseless_green",nil,275],
 						["srifle_DMR_01_F",nil,50000],
 						["srifle_DMR_03_woodland_F",nil,75000],
@@ -308,6 +310,7 @@ switch(_shop) do
 						["5Rnd_127x108_Mag",nil,10000],
 						["5Rnd_127x108_APDS_Mag","TruckStopper",30000],
 						["srifle_LRR_F",nil,1000000],
+						["optic_Nightstalker",nil,500000],
 						["7Rnd_408_Mag",nil,5000],
 						["optic_SOS",nil,30000],
 						["optic_DMS",nil,30000],

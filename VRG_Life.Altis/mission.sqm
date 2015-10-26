@@ -57088,7 +57088,7 @@ class Mission
 		{
 			position[]={414.91699,0.071171753,30073.008};
 			name="TSINFO";
-			text="TEAMSPEAK: tssyd1.vilayer.com:10051";
+			text="TEAMSPEAK: loyaltygaming.typefrag.com:8130";
 			type="waypoint";
 			colorName="ColorBlue";
 		};
@@ -57096,7 +57096,7 @@ class Mission
 		{
 			position[]={418.15732,0.020227434,29416.014};
 			name=" WEBSITEINFO";
-			text="WEBSITE:  http://virtualrealitygamingaus.com/";
+			text="WEBSITE:  http://loyaltygaming.tk/forum/";
 			type="waypoint";
 			colorName="ColorBlue";
 		};

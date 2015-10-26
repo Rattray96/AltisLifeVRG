@@ -1,4 +1,4 @@
-VIRTUAL REALITY GAMING-ALTIS
+VIRTUAL REALITY GAMING-Altis-Life
 =============
 
 dev getting started guide.

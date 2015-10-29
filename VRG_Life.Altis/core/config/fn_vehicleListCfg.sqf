@@ -66,7 +66,7 @@ switch (_shop) do
 			["O_Truck_03_transport_F",200000],
 			["O_Truck_03_covered_F",250000],
 			["B_Truck_01_box_F",350000],
-			["O_Truck_03_device_F",250000]
+			["O_Truck_03_device_F",450000]
 		];	
 	};
 	
@@ -94,10 +94,7 @@ switch (_shop) do
 				["B_Heli_Transport_01_camo_F",9000000],
 				["I_MRAP_03_F",5500000],
 				["O_MRAP_02_F",4000000],
-			    ["B_Heli_Transport_03_unarmed_F",9500000],
-				["B_APC_Tracked_01_rcws_F",1000000],
-				["B_MRAP_01_hmg_F",7000000],
-			    ["I_Plane_Fighter_03_AA_F",13000000]
+			    ["B_Heli_Transport_03_unarmed_F",9500000]
 			];
 		};
 	};
@@ -271,15 +268,15 @@ switch (_shop) do
 			_return set[count _return,["C_Hatchback_01_sport_F",5000]];
 			_return set[count _return,["C_Van_01_box_F",30000]];
 		    _return set[count _return,["I_Truck_02_covered_F",100000]];
-			_return set[count _return,["B_Truck_01_medical_F",27000]];
+			_return set[count _return,["B_Truck_01_medical_F",270000]];
 			_return set[count _return,["B_Truck_01_box_F",300000]];
 			_return set[count _return,["B_Heli_Light_01_F",350000]];
-			_return set[count _return,["O_Heli_Light_02_unarmed_F",150000]];
-			_return set[count _return,["I_Heli_Transport_02_F",400000]];
-			_return set[count _return,["B_Heli_Transport_01_camo_F",500000]];
-			_return set[count _return,["I_MRAP_03_F",285000]]; //Strider
-			_return set[count _return,["O_MRAP_02_F",266666]]; //Ifrit
-			_return set[count _return,["B_Heli_Transport_03_unarmed_F",650000]]; //Heli DLC
+			_return set[count _return,["O_Heli_Light_02_unarmed_F",1500000]];
+			_return set[count _return,["I_Heli_Transport_02_F",4000000]];
+			_return set[count _return,["B_Heli_Transport_01_camo_F",5000000]];
+			_return set[count _return,["I_MRAP_03_F",2850000]]; //Strider
+			_return set[count _return,["O_MRAP_02_F",2666667]]; //Ifrit
+			_return set[count _return,["B_Heli_Transport_03_unarmed_F",6500000]]; //Heli DLC
 
 		};
 	};

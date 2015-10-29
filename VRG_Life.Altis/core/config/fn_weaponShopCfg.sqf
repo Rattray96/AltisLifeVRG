@@ -597,8 +597,8 @@ switch(_shop) do
 			{
 				["STS Donator Shop Tier 2",
 					[
-					["ItemGPS",nil,100],
-					["hgun_Pistol_heavy_01_MRD_F",nil,7000],
+					    ["ItemGPS",nil,100],
+				    	["hgun_Pistol_heavy_01_MRD_F",nil,7000],
 						["11Rnd_45ACP_Mag",nil,25],
 						["hgun_Rook40_F",nil,1500],
 						["16Rnd_9x21_Mag",nil,25],
@@ -734,8 +734,8 @@ switch(_shop) do
 			{
 				["STS Donator Shop Tier 3",
 					[
-					["ItemGPS",nil,100],
-					["hgun_Pistol_heavy_01_MRD_F",nil,6000],
+					    ["ItemGPS",nil,100],
+					    ["hgun_Pistol_heavy_01_MRD_F",nil,6000],
 						["11Rnd_45ACP_Mag",nil,25],
 						["hgun_Rook40_F",nil,1500],
 						["16Rnd_9x21_Mag",nil,25],
@@ -870,12 +870,13 @@ switch(_shop) do
 					]
 				];
 			};
+			
 			case (__GETC__(life_donator) == 4):
 			{
 				["STS Donator Shop Tier 4",
 					[
-					["ItemGPS",nil,100],
-					["hgun_Pistol_heavy_01_MRD_F",nil,5000],
+					    ["ItemGPS",nil,100],
+					    ["hgun_Pistol_heavy_01_MRD_F",nil,5000],
 						["11Rnd_45ACP_Mag",nil,25],
 						["hgun_Rook40_F",nil,1500],
 						["16Rnd_9x21_Mag",nil,25],
@@ -1007,6 +1008,7 @@ switch(_shop) do
 					]
 				];
 			};
+			
 			case (__GETC__(life_donator) == 5):
 			{
 				["STS Donator Shop Tier 5",

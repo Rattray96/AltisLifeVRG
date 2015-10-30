@@ -2763,7 +2763,7 @@ class Mission
 				class Item48
 				{
 					position[]={3273.9382,2.195833,12974.939};
-					azimut=182.12564;
+					azimut=182.12601;
 					offsetY=0.1;
 					special="NONE";
 					id=144;
@@ -2771,7 +2771,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3";
-					init="this enableSimulation false; this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""SOTG Weapon Shop"",life_fnc_weaponShopMenu,""cop_sotg""];  this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Recruit Weapon Shop"",life_fnc_weaponShopMenu,""cop_recruit""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""S.W.A.T Weapon Shop"",life_fnc_weaponShopMenu,""cop_sotg""];  this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];";
 				};
 				class Item49
 				{
@@ -2812,7 +2812,7 @@ class Mission
 				class Item52
 				{
 					position[]={14167.385,19.568289,16279.277};
-					azimut=-291.51633;
+					azimut=-291.51599;
 					special="NONE";
 					id=148;
 					side="WEST";
@@ -3011,14 +3011,14 @@ class Mission
 				class Item69
 				{
 					position[]={13820.457,20.401899,18986.59};
-					azimut=182.12558;
+					azimut=182.12601;
 					special="NONE";
 					id=165;
 					side="WEST";
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3_2";
-					init="this enableSimulation false; this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""SOTG Weapon Shop"",life_fnc_weaponShopMenu,""cop_sotg""];  this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Recruit Weapon Shop"",life_fnc_weaponShopMenu,""cop_recruit""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""S.W.A.T Weapon Shop"",life_fnc_weaponShopMenu,""cop_sotg""];  this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];";
 				};
 				class Item70
 				{
@@ -3149,14 +3149,14 @@ class Mission
 				class Item81
 				{
 					position[]={10811.303,72.973145,15833.447};
-					azimut=-139.4216;
+					azimut=-139.422;
 					special="NONE";
 					id=177;
 					side="WEST";
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3_3";
-					init="this enableSimulation false; this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""SOTG Weapon Shop"",life_fnc_weaponShopMenu,""cop_sotg""];  this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""]; this addAction[""<t color='#ADFF2F'>ATM</t>"",life_fnc_atmMenu,"""",0,FALSE,FALSE,"""",' vehicle player == player && player distance _target < 4 ']; this addAction[""Banking Insurance ($1,000)"",{if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000};},"""",0,false,false,"""",'!life_has_insurance'];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Recruit Weapon Shop"",life_fnc_weaponShopMenu,""cop_recruit""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[""S.W.A.T Weapon Shop"",life_fnc_weaponShopMenu,""cop_sotg""];  this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];";
 				};
 				class Item82
 				{

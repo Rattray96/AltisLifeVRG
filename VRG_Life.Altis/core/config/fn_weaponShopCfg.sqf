@@ -25,6 +25,7 @@ switch(_shop) do
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 1): {"Your not a Cadet!"};
 			default
 			{
 				["Altis Cop Shop",
@@ -34,12 +35,35 @@ switch(_shop) do
 						["hgun_P07_F",nil,7500],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
-						["muzzle_snds_L",nil,650],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,30000],
 						["NVGoggles",nil,2000],
 						["16Rnd_9x21_Mag",nil,50],
 						["20Rnd_556x45_UW_mag","Taser Rifle Magazine",100]
+					]
+				];
+			};
+		};
+	};
+	
+	case "cop_recruit":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 0): {"...."};
+			default
+			{
+				["Altis Cop Shop",
+					[
+						["hgun_P07_snds_F","Stun Pistol",500],
+						["hgun_P07_F",nil,7500],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["Medikit",nil,30000],
+						["NVGoggles",nil,2000],
+						["16Rnd_9x21_Mag",nil,50]
 					]
 				];
 			};
@@ -123,10 +147,6 @@ switch(_shop) do
 						["optic_Hamr",nil,500],
 						["optic_Arco",nil,500],
 						["optic_MRCO",nil,500],
-						["muzzle_snds_H",nil,500],
-						["muzzle_snds_L",nil,500],
-						["muzzle_snds_M",nil,500],
-						["muzzle_snds_B",nil,500],
 						["SmokeShellGreen","TearGas",500],
 						["HandGrenade_Stone","Flashbang",1700],
 						["1Rnd_SmokeGreen_Grenade_shell","40mmTearGas",500],
@@ -161,6 +181,10 @@ switch(_shop) do
 						["optic_KHS_blk",nil,500],
 						["optic_AMS",nil,500],
 						["muzzle_snds_H_MG",nil,10000],
+						["muzzle_snds_H",nil,500],
+						["muzzle_snds_L",nil,500],
+						["muzzle_snds_M",nil,500],
+						["muzzle_snds_B",nil,500],
 						["optic_Arco",nil,500],
 						["10Rnd_338_Mag",nil,500],
 						["5Rnd_127x108_Mag",nil,500],

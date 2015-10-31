@@ -90,15 +90,15 @@ switch (_side) do
 
 
 
-		 if ((getPlayerUID player) in [""]) then {
+		 if ((getPlayerUID player) in ["76561198109136355","76561198079529504","76561198074030114","76561198080946973"]) then {
 
-        _markers = _markers + [["btdspawn","bTd Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];	};
+        _markers = _markers + [["loa_spawn","LOA Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];	};
 
-		if ((getPlayerUID player) in [""]) then {
-        _markers = _markers + [["tmmspawn","SNG Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];  };
-
-		if ((getPlayerUID player) in [""]) then {
+		if ((getPlayerUID player) in ["76561198131967392","76561198058048010"]) then {
         _markers = _markers + [["adf_spawn","ADF Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];  };
+
+		if ((getPlayerUID player) in [""]) then {
+        _markers = _markers + [["adf_spawn","ADFC Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];  };
 
 		if ((getPlayerUID player) in [""]) then {
         _markers = _markers + [["kr3wspawn","Kr3w Spawn","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]];  };

@@ -57173,7 +57173,7 @@ class Mission
 		class Item291
 		{
 			position[]={14276.366,4.5233741,13030.963};
-			name="btdspawn";
+			name="loa_spawn";
 			type="Empty";
 			angle=82.831299;
 		};
@@ -57552,9 +57552,9 @@ class Mission
 		class Item335
 		{
 			position[]={12807.865,86.354767,16715.859};
-			name="abspawn";
+			name="adf_spawn";
 			type="Empty";
-			angle=111.78381;
+			angle=111.784;
 		};
 		class Item336
 		{
@@ -57915,6 +57915,7 @@ class Mission
 		{
 			position[]={14291.604,4.9309449,13032.063};
 			name="bTd Base_1_1";
+			text=" LOA ";
 			type="mil_warning";
 			colorName="ColorGreen";
 		};
@@ -57929,6 +57930,7 @@ class Mission
 		{
 			position[]={12829.855,86.564301,16717.051};
 			name="abBase";
+			text=" ADF";
 			type="mil_warning";
 			colorName="ColorGreen";
 		};

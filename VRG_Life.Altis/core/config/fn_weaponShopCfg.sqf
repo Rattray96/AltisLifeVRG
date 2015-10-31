@@ -108,7 +108,6 @@ switch(_shop) do
 						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
 						["optic_MRCO",nil,3000],
-						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,130],
 						["30Rnd_9x21_Mag",nil,250]
 					]
@@ -154,7 +153,6 @@ switch(_shop) do
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["30Rnd_9x21_Mag",nil,60],
 						["9Rnd_45ACP_Mag",nil,200],
-						["muzzle_snds_acp",nil,500],
 						["bipod_01_F_blk",nil,10000]
 					]
 				];
@@ -185,6 +183,7 @@ switch(_shop) do
 						["muzzle_snds_L",nil,500],
 						["muzzle_snds_M",nil,500],
 						["muzzle_snds_B",nil,500],
+						["muzzle_snds_acp",nil,500],
 						["optic_Arco",nil,500],
 						["10Rnd_338_Mag",nil,500],
 						["5Rnd_127x108_Mag",nil,500],

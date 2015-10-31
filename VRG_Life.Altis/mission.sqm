@@ -406,7 +406,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 4";
+					description="Public - Cop 4";
 				};
 				class Item14
 				{
@@ -419,7 +419,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_2";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 2";
+					description="Public - Cop 2";
 				};
 				class Item15
 				{
@@ -432,7 +432,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_3";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 3";
+					description="Public - Cop 3";
 				};
 				class Item16
 				{
@@ -472,7 +472,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_1";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 1";
+					description="Public - Cop 1";
 				};
 			};
 		};
@@ -2941,7 +2941,7 @@ class Mission
 				};
 				class Item63
 				{
-					position[]={7128.0889,201.56836,18914.234};
+					position[]={7124.1997,201.8389,18921.74};
 					azimut=-122.91;
 					offsetY=0.2;
 					special="NONE";
@@ -55496,7 +55496,7 @@ class Mission
 		};
 		class Item93
 		{
-			position[]={7127.2886,201.60318,18915.219};
+			position[]={7123.4785,201.85316,18922.145};
 			name="dimond_1";
 			text="Blood Diamond Processing";
 			type="mil_triangle";

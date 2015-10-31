@@ -69,7 +69,7 @@ __CONST__(life_houseLimit,3); //Maximum amount of houses a player can buy (TODO:
 __CONST__(life_gangPrice,50000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
 __CONST__(life_gangUpgradeBase,10000); //MASDASDASD
 __CONST__(life_gangUpgradeMultipler,4.5); //BLAH
-__CONST__(life_enableFatigue,true); //Enable / Disable the ARMA 3 Fatigue System
+__CONST__(life_enableFatigue,false); //Enable / Disable the ARMA 3 Fatigue System
 //Uniform price (0),Hat Price (1),Glasses Price (2),Vest Price (3),Backpack Price (4)
 life_clothing_purchase = [-1,-1,-1,-1,-1];
 /*

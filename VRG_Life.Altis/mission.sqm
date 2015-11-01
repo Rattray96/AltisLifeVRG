@@ -54738,7 +54738,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=416;
+		items=402;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -58100,104 +58100,6 @@ class Mission
 		};
 		class Item396
 		{
-			position[]={21446.352,14.209978,8061.3467};
-			name="sv_spawn1";
-			type="Empty";
-			angle=-50.525932;
-		};
-		class Item397
-		{
-			position[]={21470.057,14.072426,8044.4336};
-			name="sv_spawn2";
-			type="Empty";
-			angle=-48.893501;
-		};
-		class Item398
-		{
-			position[]={21492.129,14.24275,8027.9009};
-			name="sv_spawn3";
-			type="Empty";
-			angle=-50.551147;
-		};
-		class Item399
-		{
-			position[]={21513.996,14.659461,8007.9351};
-			name="sv_spawn4";
-			type="Empty";
-			angle=-49.063282;
-		};
-		class Item400
-		{
-			position[]={21077.209,17.610285,8476.9912};
-			name="sv_pos1";
-			type="Empty";
-			angle=-30.413511;
-		};
-		class Item401
-		{
-			position[]={20850.758,25.058691,8756.8867};
-			name="sv_pos2";
-			type="Empty";
-			angle=-31.698042;
-		};
-		class Item402
-		{
-			position[]={20602.209,43.409134,9129.4932};
-			name="sv_pos3";
-			type="Empty";
-			angle=-36.631977;
-		};
-		class Item403
-		{
-			position[]={20400.781,52.514874,9315.6416};
-			name="sv_pos4";
-			type="Empty";
-			angle=-35.832569;
-		};
-		class Item404
-		{
-			position[]={20276.912,54.104279,9651.6748};
-			name="sv_pos5";
-			type="Empty";
-			angle=-43.729301;
-		};
-		class Item405
-		{
-			position[]={20183.141,57.005428,9939.9922};
-			name="sv_pos6";
-			type="Empty";
-			angle=-28.487486;
-		};
-		class Item406
-		{
-			position[]={20034.939,39.106323,10175.978};
-			name="sv_pos7";
-			type="Empty";
-			angle=-24.188126;
-		};
-		class Item407
-		{
-			position[]={19907.037,42.231907,10334.823};
-			name="sv_pos8";
-			type="Empty";
-			angle=-3.0961242;
-		};
-		class Item408
-		{
-			position[]={19789.361,46.625999,10523.383};
-			name="sv_pos9";
-			type="Empty";
-			angle=-58.279919;
-		};
-		class Item409
-		{
-			position[]={19364.939,64.743317,10776.031};
-			name="sv_pos10";
-			type="Empty";
-			angle=-56.387936;
-		};
-		class Item410
-		{
 			position[]={13947.588,22.822857,18662.555};
 			name="Internet Cafe_1";
 			text="Internet Cafe";
@@ -58205,7 +58107,7 @@ class Mission
 			colorName="ColorUNKNOWN";
 			angle=-51.78307;
 		};
-		class Item411
+		class Item397
 		{
 			position[]={25619.479,19.302197,21298.389};
 			name="Internet Cafe_2";
@@ -58214,7 +58116,7 @@ class Mission
 			colorName="ColorUNKNOWN";
 			angle=36.97427;
 		};
-		class Item412
+		class Item398
 		{
 			position[]={16917.627,18.126841,12750.172};
 			name="Internet Cafe_2_1";
@@ -58223,7 +58125,7 @@ class Mission
 			colorName="ColorUNKNOWN";
 			angle=219.58125;
 		};
-		class Item413
+		class Item399
 		{
 			position[]={16074.993,15.861074,17001.094};
 			name="bankkos_1_1";
@@ -58235,7 +58137,7 @@ class Mission
 			b=180;
 			angle=-8.3765001;
 		};
-		class Item414
+		class Item400
 		{
 			position[]={16018.759,13.655492,16953.834};
 			name="fed_reserve_1";
@@ -58243,7 +58145,7 @@ class Mission
 			type="loc_Tourism";
 			colorName="ColorWEST";
 		};
-		class Item415
+		class Item401
 		{
 			position[]={4885.8311,17.059689,14418.046};
 			name="gang_area_2_1";

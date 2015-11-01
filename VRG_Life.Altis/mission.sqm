@@ -3906,8 +3906,8 @@ class Mission
 				};
 				class Item147
 				{
-					position[]={12844.523,90.948143,16671.711};
-					azimut=91.474747;
+					position[]={12848.047,89.567513,16692.592};
+					azimut=-58.367035;
 					special="NONE";
 					id=243;
 					side="CIV";
@@ -3918,8 +3918,8 @@ class Mission
 				};
 				class Item148
 				{
-					position[]={12848.893,90.41436,16669.371};
-					azimut=304.40497;
+					position[]={12851.462,88.467575,16697.354};
+					azimut=385.91547;
 					special="NONE";
 					id=244;
 					side="CIV";

@@ -1,7 +1,7 @@
 /*
 	Date:			Func:			Exec: 
 	01.01.2015      adminOnDuty 	call
-		
+		MullSm0ke & BongLord
 	Desc: 
 	Broadcasts an admin is on duty, gives them a virtual reality suit and gas mask as well as a range of 
 	functions compensating for debug access. These commands are removed upon going off duty.
@@ -17,8 +17,7 @@ _actions = [
 				["Repair Building",{_buildingarray = nearestObjects [(position player), ["static"], 100];  {    (nearestBuilding _x) setDamage 0;  } forEach _buildingarray;hint "Building Repaired";}],
 				["Revive Player",{[[name player],"life_fnc_revived",cursorTarget,FALSE] spawn life_fnc_MP;hint "Player Revived";}],
 				["Heal",{cursorTarget setDamage 0;hint "Target Healed";}],
-				["Impound Vehicle",{[[cursorTarget,true,player],"TON_fnc_vehicleStore",false,false] spawn life_fnc_MP;}],
-				["Delete Hacked Vehicles",{[] call life_fnc_delSpawnedVeh;}]
+				["Impound Vehicle",{[[cursorTarget,true,player],"TON_fnc_vehicleStore",false,false] spawn life_fnc_MP;}]
 			];
 
 switch(life_onduty) do
@@ -44,7 +43,7 @@ switch(life_onduty) do
 
 	case false:
 	{
-		player forceAddUniform "U_O_FullGhillie_lsh";
+		player forceAddUniform "U_NikosAgedBody";
 		if(side player == civilian) then {removeHeadgear player};
 		life_god = false;
 		life_onduty = true;
